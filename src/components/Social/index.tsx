@@ -3,6 +3,12 @@ import { GithubIcon, InstagramIcon, LinkedInIcon } from "../SvgIcons"
 import styled from "styled-components"
 import Container from "../Container"
 
+const Wrapper = styled(Container)`
+  @media screen and (max-width: 720px) {
+    display: flex !important;
+  }
+`
+
 const IconWrapper = styled.div`
   align-items: flex-start;
 `
@@ -13,11 +19,16 @@ const Spacer = styled.span`
   height: 8px;
   background: black;
   margin-top: 16px;
+  @media screen and (max-width: 720px) {
+    width: 140px;
+    height: 4px;
+    margin-top: 18px;
+  }
 `
 
 const Social = props => {
   return (
-    <Container style={{paddingTop: "80px"}}>
+    <Wrapper style={{ paddingTop: "80px" }}>
       <IconWrapper>
         <IconLink href="https://www.github.com/SiddharthMantri" target="_blank">
           <GithubIcon />
@@ -41,7 +52,7 @@ const Social = props => {
       </IconWrapper>
 
       <Spacer />
-    </Container>
+    </Wrapper>
   )
 }
 export default Social

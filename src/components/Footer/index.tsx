@@ -1,10 +1,10 @@
-import React from 'react';
-import styled from 'styled-components';
-import Container from '../Container';
+import React from "react"
+import styled from "styled-components"
+import Container from "../Container"
 
-
-const Footer = () => {
-    return (
-        <Container></Container>
-    )
-}
+const Footer = () => (
+  <Container>
+    <div></div>
+  </Container>
+)
+export default Footer
