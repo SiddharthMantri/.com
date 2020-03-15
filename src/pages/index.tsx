@@ -25,7 +25,7 @@ const IndexPage = () => (
   <>
     <Helmet>
       <title>Sid Mantri - Front End Developer </title>
-      <link rel="canonical" href="http://sidamantri.com/" />
+      <link rel="canonical" href="https://sidmantri.com/" />
     </Helmet>
     <Social />
     <Landing>
@@ -43,25 +43,28 @@ const IndexPage = () => (
     </Landing>
     <Container>
       <ElevatorContent>
-        I am a 28 year old Software Engineer based in Madrid, Spain. Over the
-        years I have worked as a Senior Developer in New York City and Senior
-        Frontend Engineer in Spain.
-        <br />
-        <br />
-        I have also worked extensively as a freelancer in India with various
-        startups who required cleanly designed websites, dynamic web
-        applications or even simple portfolio websites.
-        <br />
-        <br />
+        <p>
+          I am a 28 year old Software Engineer based in Madrid, Spain. Over the
+          years I have worked as a Senior Developer in New York City and Senior
+          Frontend Engineer in Spain.
+        </p>
+        <p>
+          I have also worked extensively as a freelancer in India with various
+          startups who required cleanly designed websites, dynamic web
+          applications or even simple portfolio websites.
+        </p>
       </ElevatorContent>
       <ElevatorContent>
-        I have also worked extensively as a freelancer in India with various
-        startups who required cleanly designed websites, dynamic web
-        applications or even simple portfolio websites.
-        <br />
-        <br />I have been forunate to work with extremely talented engineers and
-        designers and I have earned valuable experience that has helped me
-        become a better professional.
+        <p>
+          I have also worked extensively as a freelancer in India with various
+          startups who required cleanly designed websites, dynamic web
+          applications or even simple portfolio websites.
+        </p>
+        <p>
+          I have been forunate to work with extremely talented engineers and
+          designers and I have earned valuable experience that has helped me
+          become a better professional.
+        </p>
       </ElevatorContent>
     </Container>
     <Skills title={"Skills"} skills={SkillItems} />

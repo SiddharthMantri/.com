@@ -22,11 +22,13 @@ const SkillItem = styled.div`
   flex: 1 0 25%;
   font-family: 'Hind', sans-serif;
   padding: 16px 0px;
-
+  @media screen and (max-width: 720px){
+    flex: 1 0 50%;
+  }
 `
 
 const Skills = ({ title, skills }: { title: string; skills: string[] }) => (
-  <Container style={{ padding: "40px 16px" }}>
+  <Container>
     <div style={{ width: "100%" }}>
       <SkillsTitle>{title}</SkillsTitle>
       <SkillsList>

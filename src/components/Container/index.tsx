@@ -8,6 +8,7 @@ const Container = styled.div`
   @media screen and (max-width: 720px){
     width: 90%;
     padding: 24px;
+    display: block
   }
 `
 export default Container
