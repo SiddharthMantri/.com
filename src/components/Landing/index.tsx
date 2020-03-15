@@ -11,7 +11,7 @@ const LandingWrapper = styled.div`
 const LandingInner = styled.div`
   height: 80vh;
   width: 100%;
-  padding: 16px;
+  padding: 160px 16px;
   background: #fea47f;
   -webkit-transform: skewy(1deg);
   transform: skewy(1deg);

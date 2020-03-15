@@ -1,6 +1,8 @@
 import React from "react"
 import { Helmet } from "react-helmet"
 import Landing from "../components/Landing"
+import Social from "../components/Social"
+import LandingIntro from "../components/LandingIntro"
 
 const IndexPage = () => (
   <>
@@ -9,7 +11,10 @@ const IndexPage = () => (
       <link rel="canonical" href="http://sidamantri.com/" />
     </Helmet>
     <Landing>
-      asdasdasdasdas
+      <Social />
+      <LandingIntro>
+        Hi, I'm Sid. Frontend developer and web enthusiast.
+      </LandingIntro>
     </Landing>
   </>
 )
