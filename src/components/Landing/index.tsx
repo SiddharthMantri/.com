@@ -1,20 +1,22 @@
 import React from "react"
 import styled from "styled-components"
 
-const LandingWrapper = styled.div`
-  height: 90vh;
-  width: 100%;
-  background: #fea47f;
-  -webkit-transform: skewy(-1deg);
-  transform: skewy(-1deg);
-`
-const LandingInner = styled.div`
-  height: 80vh;
-  width: 100%;
-  padding: 160px 16px;
-  background: #fea47f;
-  -webkit-transform: skewy(1deg);
+//background: #fea47f;
+//height: 90vh;
+//height: 80vh;
+/**
+ * -webkit-transform: skewy(1deg);
   transform: skewy(1deg);
+ */
+const LandingWrapper = styled.div`
+  width: 100%;
+`
+
+const LandingInner = styled.div`
+  width: 100%;
+  @media screen and (max-width: 720px) {
+    padding: 0px;
+  }
 `
 const Landing = ({ children }: { children?: React.ReactNode }) => (
   <LandingWrapper>

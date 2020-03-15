@@ -1,14 +1,8 @@
 import React from "react"
 import { GithubIcon, InstagramIcon, LinkedInIcon } from "../SvgIcons"
 import styled from "styled-components"
+import Container from "../Container"
 
-const SocialWrapper = styled.div`
-  width: 80%;
-  margin: auto;
-  max-height: 80px;
-  display: flex;
-  height: 80px;
-`
 const IconWrapper = styled.div`
   align-items: flex-start;
 `
@@ -23,18 +17,10 @@ const Spacer = styled.span`
 
 const Social = props => {
   return (
-    <SocialWrapper>
+    <Container style={{paddingTop: "80px"}}>
       <IconWrapper>
         <IconLink href="https://www.github.com/SiddharthMantri" target="_blank">
           <GithubIcon />
-        </IconLink>
-      </IconWrapper>
-      <IconWrapper>
-        <IconLink
-          href="https://www.instagram.com/siddharthmantri"
-          target="_blank"
-        >
-          <InstagramIcon />
         </IconLink>
       </IconWrapper>
       <IconWrapper>
@@ -45,8 +31,17 @@ const Social = props => {
           <LinkedInIcon />
         </IconLink>
       </IconWrapper>
+      <IconWrapper>
+        <IconLink
+          href="https://www.instagram.com/siddharthmantri"
+          target="_blank"
+        >
+          <InstagramIcon />
+        </IconLink>
+      </IconWrapper>
+
       <Spacer />
-    </SocialWrapper>
+    </Container>
   )
 }
 export default Social
