@@ -7,7 +7,7 @@ const LandingIntroWrapper = styled(Container)`
   font-weight: 900;
   font-size: 3rem;
   text-align: left;
-  margin: 80px auto;
+  xmargin: 80px auto;
   line-height: 1;
 `
 
@@ -16,6 +16,11 @@ const LandingText = styled.div`
   @media screen and (max-width: 720px) {
     width: 100%;
     font-size: 1.5rem;
+  }
+  @media screen and (min-width: 721px) and (max-width: 1024px) {
+    width: 100%;
+    padding: 16px 24px 0px 16px;
+    text-align: center;
   }
 `
 
