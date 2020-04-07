@@ -28,6 +28,37 @@ const IndexPage = () => (
     <Helmet>
       <title>Sid Mantri - Front End Developer </title>
       <link rel="canonical" href="https://sidmantri.com/" />
+      <meta
+        name="title"
+        content="Sid Mantri - Front End Developer - SidMantri"
+      />
+      <meta
+        name="description"
+        content="Design and Technology have always been the heart of all my interests."
+      />
+      <meta property="og:type" content="website" />
+      <meta property="og:url" content="https://sidmantri.com/" />
+      <meta
+        property="og:title"
+        content="Sid Mantri - Front End Developer - SidMantri"
+      />
+      <meta
+        property="og:description"
+        content="Design and Technology have always been the heart of all my interests."
+      />
+      {/* <meta property="og:image" content={LandingImage} /> */}
+      <meta property="twitter:card" content="summary_large_image" />
+      <meta property="twitter:url" content="https://sidmantri.com/" />
+      <meta
+        property="twitter:title"
+        content="Sid Mantri - Front End Developer - SidMantri"
+      />
+      <meta
+        property="twitter:description"
+        content="Design and Technology have always been the heart of all my interests."
+      />
+      {/* <meta property="twitter:image" content={LandingImage} /> */}
+      <html lang="en" />
     </Helmet>
     <Fade fade={0.3}>
       <Social />
@@ -76,7 +107,7 @@ const IndexPage = () => (
       <Container>
         <ElevatorContent>
           <p>
-            When I’m not working on tech stuff, you can find me playing video
+            When I’m not working on technology or design, you can find me playing video
             games and guitar, or wandering off to explore intriguing new places.
           </p>
           <p>
