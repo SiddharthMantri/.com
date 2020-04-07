@@ -47,31 +47,44 @@ const IndexPage = () => (
       <Container>
         <ElevatorContent>
           <p>
-            I am a 28 year old Software Engineer based in Madrid, Spain. Over
-            the years I have worked as a Senior Developer in New York City and
-            Senior Frontend Engineer in Spain.
+            I am a 28 year old, Madrid-based Software Engineer. In the past, I
+            have worked on various projects as a freelancer in India in
+            collaboration with a number of startups who required clean websites,
+            dynamic web applications, and simple portfolio websites.
           </p>
           <p>
-            I have also worked extensively as a freelancer in India with various
-            startups who required cleanly designed websites, dynamic web
-            applications or even simple portfolio websites.
+            An interest in FinTech took me to the USA, where I pursued Financial
+            Engineering and had the opportunity to work as a Senior Developer at
+            a globally reputed investment bank in New York City.
           </p>
         </ElevatorContent>
         <ElevatorContent>
           <p>
-            I have also worked extensively as a freelancer in India with various
-            startups who required cleanly designed websites, dynamic web
-            applications or even simple portfolio websites.
+            Eventually, the irresistible appeal of beaches, temperate climate,
+            and traveling through Europe, brought me to Spain, where I currently
+            work as a Senior Frontend Engineer.
           </p>
           <p>
-            I have been forunate to work with extremely talented engineers and
-            designers and I have earned valuable experience that has helped me
+            Over the years, I have been fortunate to have worked with extremely
+            talented engineers and designers, enabling me to gather valuable
+            experience that has helped me consistently sharpen my skills and
             become a better professional.
           </p>
         </ElevatorContent>
       </Container>
       <Skills title={"Skills"} skills={SkillItems} />
-      <InstagramBanner bannerText="I have been very fortunate to have had jobs that have let me explore my love of photography. Check out my portfolio on Instagram!" />
+      <Container>
+        <ElevatorContent>
+          <p>
+            When I’m not working on tech stuff, you can find me playing video
+            games and guitar, or wandering off to explore intriguing new places.
+          </p>
+          <p>
+            I have been lucky to have had jobs that let me explore my love for
+            photography. Check out my portfolio on Instagram!
+          </p>
+        </ElevatorContent>
+      </Container>
       <Footer />
     </Fade>
   </>

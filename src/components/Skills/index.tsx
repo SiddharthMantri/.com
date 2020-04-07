@@ -20,9 +20,9 @@ const SkillsList = styled.div`
 
 const SkillItem = styled.div`
   flex: 1 0 25%;
-  font-family: 'Hind', sans-serif;
+  font-family: "Hind", sans-serif;
   padding: 16px 0px;
-  @media screen and (max-width: 720px){
+  @media screen and (max-width: 720px) {
     flex: 1 0 50%;
   }
 `
@@ -33,7 +33,7 @@ const Skills = ({ title, skills }: { title: string; skills: string[] }) => (
       <SkillsTitle>{title}</SkillsTitle>
       <SkillsList>
         {skills.map(skill => (
-          <SkillItem>{skill}</SkillItem>
+          <SkillItem key={skill}>{skill}</SkillItem>
         ))}
       </SkillsList>
     </div>
