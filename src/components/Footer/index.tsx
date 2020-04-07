@@ -3,8 +3,6 @@ import styled from "styled-components"
 import Container from "../Container"
 
 const Footer = () => (
-  <Container>
-    <div></div>
-  </Container>
+  <div></div>
 )
 export default Footer

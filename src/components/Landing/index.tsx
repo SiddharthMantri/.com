@@ -1,15 +1,9 @@
 import React from "react"
 import styled from "styled-components"
 
-//background: #fea47f;
-//height: 90vh;
-//height: 80vh;
-/**
- * -webkit-transform: skewy(1deg);
-  transform: skewy(1deg);
- */
 const LandingWrapper = styled.div`
   width: 100%;
+  display: flex;
 `
 
 const LandingInner = styled.div`

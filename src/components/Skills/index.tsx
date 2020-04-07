@@ -28,16 +28,14 @@ const SkillItem = styled.div`
 `
 
 const Skills = ({ title, skills }: { title: string; skills: string[] }) => (
-  <Container>
-    <div style={{ width: "100%" }}>
-      <SkillsTitle>{title}</SkillsTitle>
-      <SkillsList>
-        {skills.map(skill => (
-          <SkillItem key={skill}>{skill}</SkillItem>
-        ))}
-      </SkillsList>
-    </div>
-  </Container>
+  <div style={{ width: "100%", marginTop: 80 }}>
+    <SkillsTitle>{title}</SkillsTitle>
+    <SkillsList>
+      {skills.map(skill => (
+        <SkillItem key={skill}>{skill}</SkillItem>
+      ))}
+    </SkillsList>
+  </div>
 )
 
 export default Skills
