@@ -16,6 +16,7 @@ import Container from "../components/Container"
 import Footer from "../components/Footer"
 import Fade from "../components/Fade"
 import WorkTogether from "../components/WorkTogether"
+import Divider from "../components/Divider"
 
 const SkillItems = [
   "HTML",
@@ -117,7 +118,8 @@ const IndexPage = () => (
           }
           email={"siddharthmantri1@gmail.com"}
         />
-        <ElevatorContent style={{paddingTop: '80px'}}>
+        <Divider />
+        <ElevatorContent style={{ paddingTop: "30px" }}>
           <ElevatorContentPara>
             When I’m not working on technology or design, you can find me
             playing video games and guitar, or wandering off to explore
@@ -128,7 +130,7 @@ const IndexPage = () => (
             photography. Check out my portfolio on Instagram!
           </ElevatorContentPara>
         </ElevatorContent>
-        <Footer />
+        <Footer></Footer>
       </Container>
     </Fade>
   </>

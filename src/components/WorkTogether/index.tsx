@@ -18,7 +18,7 @@ const Content = styled.div`
   align-items: flex-start;
   @media screen and (max-width: 720px) {
     width: 100%;
-    padding: 16px 0px 0px 0px;
+    padding: 30px 0px;
   }
 `
 const Email = styled.a`
