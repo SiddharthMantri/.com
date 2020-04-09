@@ -10,18 +10,18 @@ import polaris from "../../images/polaris.jpg"
 const Img = styled.img`
   width: 126px;
   margin: 4px;
-  @media screen and (max-width: 720px){
-    width: 142px
+  @media screen and (max-width: 720px) {
+    width: 142px;
   }
 `
 
 const InstagramBanner = () => {
   return (
     <div>
-      <Img src={lh} />
-      <Img src={cny} />
-      <Img src={inv} />
-      <Img src={polaris} />
+      <Img src={lh} alt="Lighthouse in Montauk, NYC" />
+      <Img src={cny} alt="Gran Canarias National Park, Spain" />
+      <Img src={inv} alt="Roque de los Muchachos, Spain" />
+      <Img src={polaris} alt="North Star" />
     </div>
   )
 }
