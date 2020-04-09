@@ -17,6 +17,7 @@ import Footer from "../components/Footer"
 import Fade from "../components/Fade"
 import WorkTogether from "../components/WorkTogether"
 import Divider from "../components/Divider"
+import { CopyrightIcon } from "../components/SvgIcons"
 
 const SkillItems = [
   "HTML",
@@ -119,18 +120,26 @@ const IndexPage = () => (
           email={"siddharthmantri1@gmail.com"}
         />
         <Divider />
-        <ElevatorContent style={{ paddingTop: "30px" }}>
-          <ElevatorContentPara>
-            When I’m not working on technology or design, you can find me
-            playing video games and guitar, or wandering off to explore
-            intriguing new places.
-          </ElevatorContentPara>
-          <ElevatorContentPara>
-            I have been lucky to have had jobs that let me explore my love for
-            photography. Check out my portfolio on Instagram!
-          </ElevatorContentPara>
-        </ElevatorContent>
-        <Footer></Footer>
+        <Elevator style={{ paddingTop: "30px" }}>
+          <ElevatorContent>
+            <ElevatorContentPara>
+              When I’m not working on technology or design, you can find me
+              playing video games and guitar, or wandering off to explore
+              intriguing new places.
+            </ElevatorContentPara>
+            <ElevatorContentPara>
+              I have been lucky to have had jobs that let me explore my love for
+              photography. Check out my portfolio on Instagram!
+            </ElevatorContentPara>
+          </ElevatorContent>
+          <ElevatorContent>
+            <InstagramBanner />
+          </ElevatorContent>
+        </Elevator>
+        <Footer>
+          <CopyrightIcon />
+          <h5 style={{ margin: "0px 8px" }}>Siddharth Mantri</h5>
+        </Footer>
       </Container>
     </Fade>
   </>
