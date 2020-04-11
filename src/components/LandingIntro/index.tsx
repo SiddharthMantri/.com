@@ -22,7 +22,6 @@ const LandingText = styled.div`
   }
   @media screen and (min-width: 721px) and (max-width: 1024px) {
     width: 100%;
-    padding: 16px 24px 0px 16px;
   }
 `
 
