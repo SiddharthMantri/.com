@@ -7,6 +7,7 @@ const SkillsTitle = styled.h2`
   font-weight: 700;
   @media screen and (max-width: 720px) {
     font-size: 1.4rem;
+    text-align:center
   }
 `
 
@@ -24,6 +25,7 @@ const SkillItem = styled.div`
   padding: 16px 0px;
   @media screen and (max-width: 720px) {
     flex: 1 0 50%;
+    text-align:center
   }
 `
 

@@ -1,11 +1,13 @@
 import React from "react"
 import styled from "styled-components"
+import { Paragraph } from "../Paragraph"
 
 const Title = styled.h2`
   font-family: "Merriweather", serif;
   font-weight: 700;
   @media screen and (max-width: 720px) {
     font-size: 1.4rem;
+    text-align:center
   }
 `
 
@@ -41,7 +43,12 @@ const WorkTogether = ({
     <div style={{ width: "100%", marginTop: 80 }}>
       <Title>{title}</Title>
       <Content>
-        {content1} <Email href={`mailto:${email}`} target="_blank">{email}</Email>
+        <Paragraph>
+          {content1}{" "}
+          <Email href={`mailto:${email}`} target="_blank">
+            {email}
+          </Email>
+        </Paragraph>
       </Content>
     </div>
   )
