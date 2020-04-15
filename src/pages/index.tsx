@@ -139,6 +139,8 @@ const IndexPage = () => (
               playing video games and guitar, or wandering off to explore
               intriguing new places.
             </Paragraph>
+          </ElevatorContent>
+          <ElevatorContent>
             <Paragraph>
               I have been lucky to have had jobs that let me explore my love for
               photography.{" "}
@@ -149,9 +151,6 @@ const IndexPage = () => (
                 Come say hi on Instagram!
               </StuartLink>
             </Paragraph>
-          </ElevatorContent>
-          <ElevatorContent>
-            <InstagramBanner />
           </ElevatorContent>
         </Elevator>
         <Footer>
