@@ -27,7 +27,7 @@ const SkillItems = [
   "React",
   "Angular",
   "Django",
-  "Java",
+  "Java and Spring",
   "SQL",
 ]
 
@@ -98,10 +98,12 @@ const IndexPage = () => (
         <Elevator style={{ marginTop: "32px" }}>
           <ElevatorContent>
             <Paragraph>
-              I am a 28 year old, Madrid-based Software Engineer. In the past, I
-              have worked on various projects as a freelancer in India in
-              collaboration with a number of startups who required clean
-              websites, dynamic web applications, and simple portfolio websites.
+              I am a 28 year old, Madrid-based Software Engineer working in
+              delivering high quality web expriences in Fintech and Logistics.
+              In the past, I have worked on various projects as a freelancer in
+              India in collaboration with a number of startups who required
+              clean websites, dynamic web applications, and simple portfolio
+              websites.
             </Paragraph>
             <Paragraph>
               An interest in FinTech took me to the USA, where I pursued
@@ -127,7 +129,7 @@ const IndexPage = () => (
         <WorkTogether
           title={`Let's Work Together`}
           content1={
-            "If you'd like to work together and build an awesome product, please contact me at"
+            "Feel free to reach out if you have questions, looking for a developer or simply want to chat! Contact me at "
           }
           email={"siddharthmantri1@gmail.com"}
         />
@@ -155,7 +157,16 @@ const IndexPage = () => (
         </Elevator>
         <Footer>
           <CopyrightIcon />
-          <h5 style={{ margin: "0px 8px" }}>Siddharth Mantri</h5>
+          <p
+            style={{
+              margin: "0px 8px",
+              paddingTop: "2px",
+              fontWeight: 900,
+              fontFamily: "Hind, 'sans-serif'",
+            }}
+          >
+            Siddharth Mantri
+          </p>
         </Footer>
       </Container>
     </Fade>
