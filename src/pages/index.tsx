@@ -98,8 +98,8 @@ const IndexPage = () => (
         <Elevator style={{ marginTop: "32px" }}>
           <ElevatorContent>
             <Paragraph>
-              I am a 28 year old, Madrid-based Software Engineer working in
-              delivering high quality web expriences in Fintech and Logistics.
+              I am a 28 year old, Madrid-based Software Engineer working on
+              delivering high quality web experiences in Fintech and Logistics.
               In the past, I have worked on various projects as a freelancer in
               India in collaboration with a number of startups who required
               clean websites, dynamic web applications, and simple portfolio
