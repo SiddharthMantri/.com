@@ -1,24 +1,19 @@
 import React from "react"
 import { Helmet } from "react-helmet"
-import Landing from "../components/Landing"
-import Social from "../components/Social"
-import LandingIntro from "../components/LandingIntro"
-import {
-  Elevator,
-  ElevatorContent,
-  ElevatorContentPara,
-} from "../components/Elevator"
-import StuartLink from "../components/StuartLink"
-import NameTag from "../components/NameTag"
-import Skills from "../components/Skills"
-import InstagramBanner from "../components/InstagramBanner"
 import Container from "../components/Container"
-import Footer from "../components/Footer"
-import Fade from "../components/Fade"
-import WorkTogether from "../components/WorkTogether"
 import Divider from "../components/Divider"
-import { CopyrightIcon } from "../components/SvgIcons"
+import { Elevator, ElevatorContent } from "../components/Elevator"
+import Fade from "../components/Fade"
+import Footer from "../components/Footer"
+import Landing from "../components/Landing"
+import LandingIntro from "../components/LandingIntro"
+import NameTag from "../components/NameTag"
 import { Paragraph } from "../components/Paragraph"
+import Skills from "../components/Skills"
+import Social from "../components/Social"
+import StuartLink from "../components/StuartLink"
+import { CopyrightIcon } from "../components/SvgIcons"
+import WorkTogether from "../components/WorkTogether"
 
 const SkillItems = [
   "HTML",
@@ -31,10 +26,14 @@ const SkillItems = [
   "SQL",
 ]
 
+const TechUsed = ["Gatsby", "Netlify", "DatoCMS", "Wordpress"]
+
 const IndexPage = () => (
   <>
     <Helmet>
-      <title>Sid Mantri - Front End Developer</title>
+      <title>
+        Freelance Frontend Developer & UI/UX Designer, Madrid - Sid Mantri
+      </title>
       <link rel="canonical" href="https://sidmantri.com/" />
       <meta property={"site_name"} content="Sid Mantri - Madrid" />
       <meta property={"og:site_name"} content="Sid Mantri - Madrid" />
@@ -43,10 +42,7 @@ const IndexPage = () => (
         name="viewport"
         content="width=device-width, initial-scale=1.0"
       ></meta>
-      <meta
-        name="title"
-        content="Sid Mantri - Front End Developer - SidMantri"
-      />
+      <meta name="title" content="Sid Mantri - Front End Developer - Madrid" />
 
       <meta
         name="description"
@@ -57,7 +53,7 @@ const IndexPage = () => (
       <meta property="og:url" content="https://sidmantri.com/" />
       <meta
         property="og:title"
-        content="Sid Mantri - Front End Developer - SidMantri"
+        content="Sid Mantri - Front End Developer - Madrid"
       />
       <meta
         property="og:description"
@@ -69,7 +65,7 @@ const IndexPage = () => (
       <meta property="twitter:url" content="https://sidmantri.com/" />
       <meta
         property="twitter:title"
-        content="Sid Mantri - Front End Developer - SidMantri"
+        content="Sid Mantri - Front End Developer - Madrid"
       />
       <meta
         property="twitter:description"

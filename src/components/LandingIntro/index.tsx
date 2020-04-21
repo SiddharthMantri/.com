@@ -11,11 +11,11 @@ const LandingIntroWrapper = styled.div`
 `
 
 const LandingText = styled.div`
-  width: 50%;
+  width: 100%;
   font-family: "Merriweather", serif;
   font-weight: 900;
-  font-size: 3rem;
-  text-align: left;
+  font-size: 4rem;
+  text-align: center;
   @media screen and (max-width: 720px) {
     width: 100%;
     font-size: 1.5rem;

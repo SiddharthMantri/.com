@@ -7,6 +7,7 @@ const Wrapper = styled.div`
   display: flex;
   padding-top: 80px;
   padding-bottom: 32px;
+  justify-content: center;
 `
 
 const IconWrapper = styled.div`
@@ -56,7 +57,7 @@ const Social = props => {
           <InstagramIcon />
         </IconLink>
       </IconWrapper>
-      <Spacer />
+      {/* <Spacer /> */}
     </Wrapper>
   )
 }
