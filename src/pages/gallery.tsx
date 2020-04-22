@@ -11,14 +11,9 @@ import SocialSubPage from "../components/Social/SocialSubPage"
 import StuartLink from "../components/StuartLink"
 import Fade from "../components/Fade"
 import Footer from "../components/Footer"
+import { Node, GatsbyIgSource } from "../types/global"
 
-type InstagramResType = {
-  allInstaNode: {
-    edges: [any]
-  }
-}
-
-const Gallery = ({ data }: { data: InstagramResType }) => (
+const Gallery = ({ data }: { data: GatsbyIgSource }) => (
   <>
     <HelmetHead
       title={"Photography Portfolio - Sid Mantri"}
@@ -52,8 +47,9 @@ const Gallery = ({ data }: { data: InstagramResType }) => (
           </StuartLink>
           .
         </Paragraph>
+
         <InstagramPageWrapper>
-          {data.allInstaNode.edges.map((edge: any, i) => (
+          {data.allInstaNode.edges.map((edge, i) => (
             <InstagramImage edge={edge} key={i} />
           ))}
         </InstagramPageWrapper>

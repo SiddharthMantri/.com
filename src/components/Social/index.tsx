@@ -1,7 +1,13 @@
 import React from "react"
-import { GithubIcon, InstagramIcon, LinkedInIcon } from "../SvgIcons"
+import {
+  GithubIcon,
+  InstagramIcon,
+  LinkedInIcon,
+  GalleryIcon,
+} from "../SvgIcons"
 import styled from "styled-components"
 import Container from "../Container"
+import GatsbyLink from "../GatsbyLink"
 
 const Wrapper = styled.div`
   display: flex;
@@ -60,7 +66,15 @@ const Social = props => {
           <InstagramIcon />
         </IconLink>
       </IconWrapper>
-      {/* <Spacer /> */}
+      <IconWrapper>
+        <GatsbyLink
+          to="/gallery"
+          title="Photography Portfolio - Sid Mantri"
+          rel="noreferrer"
+        >
+          <GalleryIcon />
+        </GatsbyLink>
+      </IconWrapper>
     </Wrapper>
   )
 }

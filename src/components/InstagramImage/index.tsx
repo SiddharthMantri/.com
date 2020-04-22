@@ -1,6 +1,7 @@
 import React from "react"
 import styled from "styled-components"
 import Img from "gatsby-image"
+import { Node } from "../../types/global"
 const Overlay = styled.div`
   position: absolute;
   top: 0;
@@ -37,7 +38,7 @@ export const InstagramPageWrapper = styled.div`
   }
 `
 
-const InstagramImage = ({ edge: { node } }) => (
+const InstagramImage = ({ edge: { node } }: { edge: { node: Node } }) => (
   <Wrapper href={`https://www.instagram.com/p/${node.id}`} target="_blank">
     <Overlay />
     <Img

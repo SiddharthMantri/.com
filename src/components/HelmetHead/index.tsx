@@ -26,23 +26,17 @@ const HelmetHead = ({
       name="viewport"
       content="width=device-width, initial-scale=1.0"
     ></meta>
-    <meta name="title" content="Sid Mantri - Front End Developer - Madrid" />
+    <meta name="title" content={TITLE} />
 
     <meta name="description" content={description} />
     <meta property="og:type" content="website" />
     <meta property="og:url" content="https://sidmantri.com/" />
-    <meta
-      property="og:title"
-      content="Sid Mantri - Front End Developer - Madrid"
-    />
+    <meta property="og:title" content={TITLE} />
     <meta property="og:description" content={description} />
     {/* <meta property="og:image" content={LandingImage} /> */}
     <meta property="twitter:card" content="summary_large_image" />
     <meta property="twitter:url" content="https://sidmantri.com/" />
-    <meta
-      property="twitter:title"
-      content="Sid Mantri - Front End Developer - Madrid"
-    />
+    <meta property="twitter:title" content={TITLE} />
     <meta property="twitter:description" content={description} />
     {/* <meta property="twitter:image" content={LandingImage} /> */}
     <html lang="en" />

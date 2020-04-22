@@ -9,7 +9,7 @@ import Landing from "../components/Landing"
 import LandingIntro from "../components/LandingIntro"
 import NameTag from "../components/NameTag"
 import { Paragraph } from "../components/Paragraph"
-import Skills from "../components/Skills"
+import TitleWithList from "../components/Skills"
 import Social from "../components/Social"
 import StuartLink from "../components/StuartLink"
 import { CopyrightIcon } from "../components/SvgIcons"
@@ -81,14 +81,18 @@ const IndexPage = () => (
           </ElevatorContent>
         </Elevator>
         <Elevator
-          style={{ textAlign: "center", padding: "40px 40px 80px 40px" }}
+          style={{ textAlign: "center", padding: "40px 40px 0px 40px" }}
         >
           <Heading variant="h2">
             I design and build custom websites and apps that will help your
             business grow
           </Heading>
         </Elevator>
-        <Skills title={"Skills"} skills={SkillItems} />
+        <Divider />
+        <TitleWithList title={"Technologies I use"} list={TechUsed} />
+        <Divider />
+        <TitleWithList title={"Skills"} list={SkillItems} />
+        <Divider />
         <WorkTogether
           title={`Let's Work Together`}
           content1={

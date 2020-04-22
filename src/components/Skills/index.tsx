@@ -2,7 +2,7 @@ import React from "react"
 import styled from "styled-components"
 import Heading from "../Heading"
 
-const SkillsList = styled.div`
+const ItemList = styled.div`
   margin-top: 40px;
   padding-left: 0;
   display: flex;
@@ -10,7 +10,7 @@ const SkillsList = styled.div`
   flex-wrap: wrap;
 `
 
-const SkillItem = styled.div`
+const ListItem = styled.div`
   flex: 1 0 25%;
   font-family: "Hind", sans-serif;
   padding: 16px 0px;
@@ -20,15 +20,15 @@ const SkillItem = styled.div`
   }
 `
 
-const Skills = ({ title, skills }: { title: string; skills: string[] }) => (
+const TitleWithList = ({ title, list }: { title: string; list: string[] }) => (
   <div style={{ width: "100%", textAlign: "center" }}>
     <Heading variant="h2">{title}</Heading>
-    <SkillsList>
-      {skills.map(skill => (
-        <SkillItem key={skill}>{skill}</SkillItem>
+    <ItemList>
+      {list.map(skill => (
+        <ListItem key={skill}>{skill}</ListItem>
       ))}
-    </SkillsList>
+    </ItemList>
   </div>
 )
 
-export default Skills
+export default TitleWithList
