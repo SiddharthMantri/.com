@@ -89,7 +89,7 @@ const IndexPage = () => (
           </Heading>
         </Elevator>
         <Divider />
-        <TitleWithList title={"Technologies I use"} list={TechUsed} />
+        <TitleWithList title={"Technologies I Use"} list={TechUsed} />
         <Divider />
         <TitleWithList title={"Skills"} list={SkillItems} />
         <Divider />
