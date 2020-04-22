@@ -5,7 +5,7 @@ const Fade = styled.div<{ fade: number }>`
   -moz-animation: fadein ${props => props.fade}s;
   -webkit-animation: fadein ${props => props.fade}s;
   -o-animation: fadein ${props => props.fade}s;
-  animation: fadein 2s;
+  animation: fadein ${props => props.fade}s;
   @keyframes fadein {
     from {
       opacity: 0;

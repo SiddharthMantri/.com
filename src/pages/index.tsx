@@ -14,7 +14,10 @@ import Social from "../components/Social"
 import StuartLink from "../components/StuartLink"
 import { CopyrightIcon } from "../components/SvgIcons"
 import WorkTogether from "../components/WorkTogether"
-
+import HelmetHead from "../components/HelmetHead"
+import { Link } from "gatsby"
+import GatsbyLink from "../components/GatsbyLink"
+import Heading from "../components/Heading"
 const SkillItems = [
   "HTML",
   "CSS",
@@ -30,51 +33,7 @@ const TechUsed = ["Gatsby", "Netlify", "DatoCMS", "Wordpress"]
 
 const IndexPage = () => (
   <>
-    <Helmet>
-      <title>
-        Freelance Frontend Developer & UI/UX Designer, Madrid - Sid Mantri
-      </title>
-      <link rel="canonical" href="https://sidmantri.com/" />
-      <meta property={"site_name"} content="Sid Mantri - Madrid" />
-      <meta property={"og:site_name"} content="Sid Mantri - Madrid" />
-      <meta property={"twitter:site_name"} content="Sid Mantri - Madrid" />
-      <meta
-        name="viewport"
-        content="width=device-width, initial-scale=1.0"
-      ></meta>
-      <meta name="title" content="Sid Mantri - Front End Developer - Madrid" />
-
-      <meta
-        name="description"
-        content="Hi, I'm Siddharth Mantri! Based out of Madrid, I'm always interested in taking on new and interesting projects.
-        Design and Technology have always been the heart of all my interests."
-      />
-      <meta property="og:type" content="website" />
-      <meta property="og:url" content="https://sidmantri.com/" />
-      <meta
-        property="og:title"
-        content="Sid Mantri - Front End Developer - Madrid"
-      />
-      <meta
-        property="og:description"
-        content="Hi, I'm Siddharth Mantri! Based out of Madrid, I'm always interested in taking on new and interesting projects.
-        Design and Technology have always been the heart of all my interests."
-      />
-      {/* <meta property="og:image" content={LandingImage} /> */}
-      <meta property="twitter:card" content="summary_large_image" />
-      <meta property="twitter:url" content="https://sidmantri.com/" />
-      <meta
-        property="twitter:title"
-        content="Sid Mantri - Front End Developer - Madrid"
-      />
-      <meta
-        property="twitter:description"
-        content="Hi, I'm Siddharth Mantri! Based out of Madrid, I'm always interested in taking on new and interesting projects.
-        Design and Technology have always been the heart of all my interests."
-      />
-      {/* <meta property="twitter:image" content={LandingImage} /> */}
-      <html lang="en" />
-    </Helmet>
+    <HelmetHead />
     <Fade fade={0.3}>
       <Container>
         <Social />
@@ -121,6 +80,14 @@ const IndexPage = () => (
             </Paragraph>
           </ElevatorContent>
         </Elevator>
+        <Elevator
+          style={{ textAlign: "center", padding: "40px 40px 80px 40px" }}
+        >
+          <Heading variant="h2">
+            I design and build custom websites and apps that will help your
+            business grow
+          </Heading>
+        </Elevator>
         <Skills title={"Skills"} skills={SkillItems} />
         <WorkTogether
           title={`Let's Work Together`}
@@ -130,7 +97,7 @@ const IndexPage = () => (
           email={"siddharthmantri1@gmail.com"}
         />
         <Divider />
-        <Elevator style={{ paddingTop: `calc(30px + 1.45rem)` }}>
+        <Elevator>
           <ElevatorContent>
             <Paragraph>
               When I’m not working on technology or design, you can find me
@@ -147,23 +114,13 @@ const IndexPage = () => (
                 href="https://www.instagram.com/siddharthmantri"
               >
                 Come say hi on Instagram!
-              </StuartLink>
+              </StuartLink>{" "}
+              or check out my portfolio{" "}
+              <GatsbyLink to="/gallery">here</GatsbyLink>
             </Paragraph>
           </ElevatorContent>
         </Elevator>
-        <Footer>
-          <CopyrightIcon />
-          <p
-            style={{
-              margin: "0px 8px",
-              paddingTop: "2px",
-              fontWeight: 900,
-              fontFamily: "Hind, 'sans-serif'",
-            }}
-          >
-            Siddharth Mantri
-          </p>
-        </Footer>
+        <Footer />
       </Container>
     </Fade>
   </>

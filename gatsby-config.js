@@ -1,8 +1,10 @@
 module.exports = {
   siteMetadata: {
-    title: `Sid Mantri - Front End Developer`,
-    description: `Design and Technology have always been the heart of all my interests.`,
+    title: `Freelance Frontend Developer & UI/UX Designer, Madrid - Sid Mantri`,
+    description: `Hi, I'm Siddharth Mantri! Based out of Madrid, I'm always interested in taking on new and interesting projects.
+    Design and Technology have always been the heart of all my interests.`,
     author: `Siddharth Mantri`,
+    siteUrl: `https://www.sidmantri.com`,
   },
   plugins: [
     `gatsby-plugin-typescript`,
@@ -52,6 +54,14 @@ module.exports = {
       },
     },
     `gatsby-plugin-transition-link`,
+    {
+      resolve: `gatsby-source-instagram`,
+      options: {
+        type: `account`,
+        username: `siddharthmantri`,
+      },
+    },
+    `gatsby-plugin-sitemap`,
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
