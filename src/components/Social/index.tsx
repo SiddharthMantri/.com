@@ -35,6 +35,7 @@ const Social = props => {
           href="https://www.github.com/SiddharthMantri"
           target="_blank"
           title="Github Link for Sid Mantri's Repo"
+          rel="noreferrer"
         >
           <GithubIcon />
         </IconLink>
@@ -44,6 +45,7 @@ const Social = props => {
           href="https://www.linkedin.com/in/SiddharthMantri"
           target="_blank"
           title="Connect with Sid on LinkedIn"
+          rel="noreferrer"
         >
           <LinkedInIcon />
         </IconLink>
@@ -53,6 +55,7 @@ const Social = props => {
           href="https://www.instagram.com/siddharthmantri"
           target="_blank"
           title="Follow Sid on Instagram at instagram.com/siddharthmantri"
+          rel="noreferrer"
         >
           <InstagramIcon />
         </IconLink>

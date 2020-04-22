@@ -115,8 +115,8 @@ const IndexPage = () => (
               >
                 Come say hi on Instagram!
               </StuartLink>{" "}
-              or check out my portfolio{" "}
-              <GatsbyLink to="/gallery">here</GatsbyLink>
+              or check out my{" "}
+              <GatsbyLink to="/gallery">photography portfolio here</GatsbyLink>.
             </Paragraph>
           </ElevatorContent>
         </Elevator>
