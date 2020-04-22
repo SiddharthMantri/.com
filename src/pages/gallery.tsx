@@ -33,6 +33,7 @@ const Gallery = ({ data }: { data: GatsbyIgSource }) => (
             href="https://www.instagram.com/siddharthmantri"
             target="_blank"
             title="Follow Sid on Instagram at instagram.com/siddharthmantri"
+            rel="noreferrer"
           >
             Instagram
           </StuartLink>{" "}
@@ -42,6 +43,7 @@ const Gallery = ({ data }: { data: GatsbyIgSource }) => (
             href="https://www.unsplash.com/@sidmantri"
             target="_blank"
             title="Download gallery as wallpapers on Unsplash.com/@sidmantri"
+            rel="noreferrer"
           >
             Unsplash
           </StuartLink>

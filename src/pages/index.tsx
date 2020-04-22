@@ -41,7 +41,7 @@ const IndexPage = () => (
           <LandingIntro>
             Hi, I'm Sid, frontend developer and web enthusiast. I'm currently
             working at{" "}
-            <StuartLink href="https://stuart.com/" target="_blank">
+            <StuartLink href="https://stuart.com/" target="_blank" rel="noreferrer">
               Stuart
             </StuartLink>{" "}
             building great things!
@@ -116,6 +116,7 @@ const IndexPage = () => (
               <StuartLink
                 target="_blank"
                 href="https://www.instagram.com/siddharthmantri"
+                rel="noreferrer"
               >
                 Come say hi on Instagram!
               </StuartLink>{" "}

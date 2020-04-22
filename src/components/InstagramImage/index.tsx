@@ -39,7 +39,7 @@ export const InstagramPageWrapper = styled.div`
 `
 
 const InstagramImage = ({ edge: { node } }: { edge: { node: Node } }) => (
-  <Wrapper href={`https://www.instagram.com/p/${node.id}`} target="_blank">
+  <Wrapper href={`https://www.instagram.com/p/${node.id}`} target="_blank" rel="noreferrer">
     <Overlay />
     <Img
       fluid={node.localFile.childImageSharp.fluid}
