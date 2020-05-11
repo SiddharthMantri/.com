@@ -71,7 +71,18 @@ const SocialSubPage = () => {
           <InstagramIcon />
         </IconLink>
       </IconWrapper>
+      
       <Spacer />
+      <p
+        style={{
+          margin: "0px 10px",
+          paddingTop: "10px",
+          fontWeight: 900,
+          fontFamily: "Hind, 'sans-serif'",
+        }}
+      >
+        Siddharth Mantri
+      </p>
     </Wrapper>
   )
 }

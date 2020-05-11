@@ -37,6 +37,17 @@ export const InstagramPageWrapper = styled.div`
     column-gap: 5px;
   }
 `
+export const InstagramPageWrapper2 = styled.div`
+  display: grid;
+  grid-template-columns: 390px 390px 390px;
+  row-gap: 35px;
+  column-gap: 0px;
+  @media screen and (max-width: 720px) {
+    grid-template-columns: 33% 33% 33%;
+    row-gap: 5px;
+    column-gap: 5px;
+  }
+`
 
 const InstagramImage = ({ edge: { node } }: { edge: { node: Node } }) => (
   <Wrapper href={`https://www.instagram.com/p/${node.id}`} target="_blank" rel="noreferrer">

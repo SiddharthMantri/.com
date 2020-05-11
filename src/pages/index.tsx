@@ -18,6 +18,7 @@ import HelmetHead from "../components/HelmetHead"
 import { Link } from "gatsby"
 import GatsbyLink from "../components/GatsbyLink"
 import Heading from "../components/Heading"
+import Spacer from "../components/Spacer"
 const SkillItems = [
   "HTML",
   "CSS",
@@ -88,11 +89,11 @@ const IndexPage = () => (
             business grow
           </Heading>
         </Elevator>
-        <Divider />
+        <Spacer />
         <TitleWithList title={"Technologies I Use"} list={TechUsed} />
-        <Divider />
+        <Spacer />
         <TitleWithList title={"Skills"} list={SkillItems} />
-        <Divider />
+        <Spacer />
         <WorkTogether
           title={`Let's Work Together`}
           content1={
@@ -100,7 +101,7 @@ const IndexPage = () => (
           }
           email={"siddharthmantri1@gmail.com"}
         />
-        <Divider />
+        <Spacer />
         <Elevator>
           <ElevatorContent>
             <Paragraph>
