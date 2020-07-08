@@ -52,7 +52,7 @@ const IndexPage = () => (
           </LandingIntro>
         </Landing>
         <Elevator style={{ marginTop: "32px" }}>
-          <ElevatorContent>
+          {/* <ElevatorContent> */}
             <Paragraph>
               I am a 28 year old, Madrid-based Software Engineer working on
               delivering high quality web experiences in Fintech and Logistics.
@@ -66,8 +66,8 @@ const IndexPage = () => (
               Financial Engineering and had the opportunity to work as a Senior
               Developer at a globally reputed investment bank in New York City.
             </Paragraph>
-          </ElevatorContent>
-          <ElevatorContent>
+          {/* </ElevatorContent> */}
+          {/* <ElevatorContent> */}
             <Paragraph>
               Eventually, the irresistible appeal of beaches, temperate climate,
               and traveling through Europe, brought me to Spain, where I
@@ -79,7 +79,7 @@ const IndexPage = () => (
               valuable experience that has helped me consistently sharpen my
               skills and become a better professional.
             </Paragraph>
-          </ElevatorContent>
+          {/* </ElevatorContent> */}
         </Elevator>
         <Elevator
           style={{ textAlign: "center", padding: "40px 40px 0px 40px" }}
@@ -103,14 +103,14 @@ const IndexPage = () => (
         />
         <Spacer />
         <Elevator>
-          <ElevatorContent>
+          {/* <ElevatorContent> */}
             <Paragraph>
               When I’m not working on technology or design, you can find me
               playing video games and guitar, or wandering off to explore
               intriguing new places.
             </Paragraph>
-          </ElevatorContent>
-          <ElevatorContent>
+          {/* </ElevatorContent> */}
+          {/* <ElevatorContent> */}
             <Paragraph>
               I have been lucky to have had jobs that let me explore my love for
               photography.{" "}
@@ -124,7 +124,7 @@ const IndexPage = () => (
               or check out my{" "}
               <GatsbyLink to="/gallery">photography portfolio here</GatsbyLink>.
             </Paragraph>
-          </ElevatorContent>
+          {/* </ElevatorContent> */}
         </Elevator>
         <Footer />
       </Container>

@@ -14,7 +14,7 @@ const LandingText = styled.div`
   width: 100%;
   font-family: "Merriweather", serif;
   font-weight: 900;
-  font-size: 4rem;
+  font-size: 3rem;
   text-align: center;
   @media screen and (max-width: 720px) {
     width: 100%;

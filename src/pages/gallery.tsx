@@ -1,6 +1,6 @@
 import { graphql } from "gatsby"
 import React from "react"
-import Container from "../components/Container"
+import Container, { GalleryContainer } from "../components/Container"
 import Heading from "../components/Heading"
 import HelmetHead from "../components/HelmetHead"
 import InstagramImage, {
@@ -22,7 +22,7 @@ const Gallery = ({ data }: { data: GatsbyIgSource }) => (
         photos from when I was off exploring. `}
     />
     <Fade fade={0.3}>
-      <Container>
+      <GalleryContainer>
         <SocialSubPage />
         <Heading variant="h2">Photography Portfolio</Heading>
         <Paragraph>
@@ -56,7 +56,7 @@ const Gallery = ({ data }: { data: GatsbyIgSource }) => (
           ))}
         </InstagramPageWrapper>
         <Footer />
-      </Container>
+      </GalleryContainer>
     </Fade>
   </>
 )

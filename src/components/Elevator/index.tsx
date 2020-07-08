@@ -2,7 +2,7 @@ import styled from "styled-components"
 
 export const Elevator = styled.div`
   margin: 0px auto;
-  display: flex;
+  
   @media screen and (max-width: 720px) {
     flex-direction: column;
   }
