@@ -30,7 +30,7 @@ const NotFoundPage = () => (
   <>
     <HelmetHead
       title={
-        "Page not found - Sid Mantri - Freelance Frontend Developer & UI/UX Designer, Madrid - Sid Mantri"
+        "Page not found - Sid Mantri - Adventure Photographer & Freelance Frontend Developer, Madrid - Sid Mantri"
       }
     />
     <Container>

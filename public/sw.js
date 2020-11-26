@@ -27,7 +27,7 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-0078ccc8abde104fcadc.js"
+    "url": "webpack-runtime-62bab80fa1c9bba5de3b.js"
   },
   {
     "url": "styles.f033ceeaa27232ea8b76.css"
@@ -36,64 +36,53 @@ self.__precacheManifest = [
     "url": "styles-80e7223394838dc7f3b7.js"
   },
   {
-    "url": "commons-fa0db48cc7811cd45a7a.js"
+    "url": "commons-54925bdf43cfae969c18.js"
   },
   {
     "url": "app-cb8ecb72bbbe7f29349a.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "aabd38a0080d7fc89fca60b5ff3db3bc"
+    "revision": "33bb73824052e59170253695dea67fe5"
   },
   {
-    "url": "google-fonts/s/hind/v10/5aU19_a8oxmIfJpbERySjQ.woff2",
-    "revision": "3992fad42f6025e7e3317f4fdd702700"
+    "url": "static/webfonts/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2"
   },
   {
-    "url": "google-fonts/s/hind/v10/5aU19_a8oxmIfLZcERySjQ.woff2",
-    "revision": "a0cd803a33fb074cc61a6e6614eec1c6"
+    "url": "static/webfonts/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_ZpC3gnD_g.woff2"
   },
   {
-    "url": "google-fonts/s/hind/v10/5aU19_a8oxmIfNJdERySjQ.woff2",
-    "revision": "7927dae4485c649d860c42c595a23aab"
+    "url": "static/webfonts/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2"
   },
   {
-    "url": "google-fonts/s/hind/v10/5aU69_a8oxmIdGl4BA.woff2",
-    "revision": "61e99a257f8899df3bab534a6aa0f9b2"
+    "url": "static/webfonts/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_epG3gnD_g.woff2"
   },
   {
-    "url": "google-fonts/s/merriweather/v21/u-440qyriQwlOrhSvowK_l5-fCZM.woff2",
-    "revision": "8276fdb72ae8f4714d4e6eba704cc39f"
+    "url": "static/webfonts/s/hind/v11/5aU69_a8oxmIdGl4BA.woff2"
   },
   {
-    "url": "google-fonts/s/merriweather/v21/u-4n0qyriQwlOrhSvowK_l52_wFZWMf6.woff2",
-    "revision": "7528fb70e8a4a82c7305e72ff43ac25f"
+    "url": "static/webfonts/s/merriweather/v22/u-440qyriQwlOrhSvowK_l5-fCZM.woff2"
   },
   {
-    "url": "google-fonts/s/merriweather/v21/u-4n0qyriQwlOrhSvowK_l52xwNZWMf6.woff2",
-    "revision": "fa534be7ffa380e39a7f6e03bf9a5e03"
+    "url": "static/webfonts/s/hind/v11/5aU19_a8oxmIfJpbERySjQ.woff2"
   },
   {
-    "url": "google-fonts/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_ZpC3gnD_g.woff2",
-    "revision": "92d16e458625f4d2c8940f6bdca0ff09"
+    "url": "static/webfonts/s/hind/v11/5aU19_a8oxmIfLZcERySjQ.woff2"
   },
   {
-    "url": "google-fonts/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2",
-    "revision": "39d93cf678c740f9f6b2b1cfde34bee3"
+    "url": "static/webfonts/s/hind/v11/5aU19_a8oxmIfNJdERySjQ.woff2"
   },
   {
-    "url": "google-fonts/s/montserrat/v14/JTURjIg1_i6t8kCHKm45_epG3gnD_g.woff2",
-    "revision": "58cd789700850375b834e8b6776002eb"
+    "url": "static/webfonts/s/merriweather/v22/u-4n0qyriQwlOrhSvowK_l52xwNZWMf6.woff2"
   },
   {
-    "url": "google-fonts/s/montserrat/v14/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2",
-    "revision": "bc3aa95dca08f5fee5291e34959c27bc"
+    "url": "static/webfonts/s/merriweather/v22/u-4n0qyriQwlOrhSvowK_l52_wFZWMf6.woff2"
   },
   {
     "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-bb03d6690d1d61be3b71.js"
   },
   {
-    "url": "component---src-pages-index-tsx-258450fbf9a0dc357e8a.js"
+    "url": "component---src-pages-index-tsx-56bf1cfa5987c4449512.js"
   },
   {
     "url": "page-data/index/page-data.json",
@@ -104,7 +93,7 @@ self.__precacheManifest = [
   },
   {
     "url": "page-data/gallery/page-data.json",
-    "revision": "f2d85ef0c7958bce248820f9b23d1cf4"
+    "revision": "7b0aa338acca8306f3a9012fa435dbf2"
   },
   {
     "url": "manifest.webmanifest",

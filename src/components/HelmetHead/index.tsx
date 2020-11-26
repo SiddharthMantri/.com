@@ -2,10 +2,10 @@ import React from "react"
 import { Helmet } from "react-helmet"
 
 const TITLE =
-  "Freelance Frontend Developer & UI/UX Designer, Madrid - Sid Mantri"
+  "Adventure Photographer & Freelance Frontend Developer, Madrid - Sid Mantri"
 const SITE_NAME = TITLE
 const DESCRIPTION = `Hi, I'm Siddharth Mantri! Based out of Madrid, I'm always interested in taking on new and interesting projects.
-Design and Technology have always been the heart of all my interests.`
+Design, Technology and Photgraphy have always been the heart of all my interests. `
 
 type HelmetHeadProps = {
   title?: string

@@ -1,8 +1,8 @@
 module.exports = {
   siteMetadata: {
-    title: `Freelance Frontend Developer & UI/UX Designer, Madrid - Sid Mantri`,
+    title: `Adventure Photographer & Freelance Frontend Developer, Madrid - Sid Mantri`,
     description: `Hi, I'm Siddharth Mantri! Based out of Madrid, I'm always interested in taking on new and interesting projects.
-    Design and Technology have always been the heart of all my interests.`,
+    Design, Technology and Photography have always been the heart of all my interests.`,
     author: `Siddharth Mantri`,
     siteUrl: `https://www.sidmantri.com`,
   },
@@ -20,22 +20,24 @@ module.exports = {
     `gatsby-transformer-sharp`,
     `gatsby-plugin-sharp`,
     {
-      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      resolve: `gatsby-plugin-webfonts`,
       options: {
-        fonts: [
-          {
-            family: `Montserrat`,
-            variants: [`400`, `500`, `700`, `900`],
-          },
-          {
-            family: `Hind`,
-            variants: [`400`, `500`, `600`, `700`],
-          },
-          {
-            family: `Merriweather`,
-            variants: [`400`, `700`, `900`],
-          },
-        ],
+        fonts: {
+          google: [
+            {
+              family: `Montserrat`,
+              variants: [`400`, `500`, `700`, `900`],
+            },
+            {
+              family: `Hind`,
+              variants: [`400`, `500`, `600`, `700`],
+            },
+            {
+              family: `Merriweather`,
+              variants: [`400`, `700`, `900`],
+            },
+          ],
+        },
       },
     },
     {
@@ -71,7 +73,7 @@ module.exports = {
         background_color: `#ffffff`,
         theme_color: `#ffffff`,
         display: `standalone`,
-        icon: `src/images/favicon-32x32.png`
+        icon: `src/images/favicon-32x32.png`,
       },
     },
     {
