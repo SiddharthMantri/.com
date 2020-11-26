@@ -1,17 +1,17 @@
 import { graphql } from "gatsby"
 import React from "react"
-import Container, { GalleryContainer } from "../components/Container"
+import { GalleryContainer } from "../components/Container"
+import Fade from "../components/Fade"
+import Footer from "../components/Footer"
 import Heading from "../components/Heading"
 import HelmetHead from "../components/HelmetHead"
 import InstagramImage, {
-  InstagramPageWrapper,
+  InstagramPageWrapper
 } from "../components/InstagramImage"
 import { Paragraph } from "../components/Paragraph"
 import SocialSubPage from "../components/Social/SocialSubPage"
 import StuartLink from "../components/StuartLink"
-import Fade from "../components/Fade"
-import Footer from "../components/Footer"
-import { Node, GatsbyIgSource } from "../types/global"
+import { GatsbyIgSource } from "../types/global"
 
 const Gallery = ({ data }: { data: GatsbyIgSource }) => (
   <>

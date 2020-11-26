@@ -40,9 +40,13 @@ const IndexPage = () => (
         <Social />
         <Landing>
           <LandingIntro>
-            Hi, I'm Sid, frontend developer and web enthusiast. I'm currently
-            working at{" "}
-            <StuartLink href="https://stuart.com/" target="_blank" rel="noreferrer">
+            Hi, I'm Sid, adventure photographer and frontend engineer. I'm
+            currently working at{" "}
+            <StuartLink
+              href="https://stuart.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               Stuart
             </StuartLink>{" "}
             building great things!
@@ -53,32 +57,31 @@ const IndexPage = () => (
         </Landing>
         <Elevator style={{ marginTop: "32px" }}>
           {/* <ElevatorContent> */}
-            <Paragraph>
-              I am a 28 year old, Madrid-based Software Engineer working on
-              delivering high quality web experiences in Fintech and Logistics.
-              In the past, I have worked on various projects as a freelancer in
-              India in collaboration with a number of startups who required
-              clean websites, dynamic web applications, and simple portfolio
-              websites.
-            </Paragraph>
-            <Paragraph>
-              An interest in FinTech took me to the USA, where I pursued
-              Financial Engineering and had the opportunity to work as a Senior
-              Developer at a globally reputed investment bank in New York City.
-            </Paragraph>
+          <Paragraph>
+            I am a 28 year old, Madrid/Almeria-based Software Engineer working
+            on delivering high quality web experiences in Fintech and Logistics.
+            In the past, I have worked on various projects as a freelancer in
+            India in collaboration with a number of startups who required clean
+            websites, dynamic web applications, and simple portfolio websites.
+          </Paragraph>
+          <Paragraph>
+            An interest in FinTech took me to the USA, where I pursued Financial
+            Engineering and had the opportunity to work as a Senior Developer at
+            a globally reputed investment bank in New York City.
+          </Paragraph>
           {/* </ElevatorContent> */}
           {/* <ElevatorContent> */}
-            <Paragraph>
-              Eventually, the irresistible appeal of beaches, temperate climate,
-              and traveling through Europe, brought me to Spain, where I
-              currently work as a Senior Frontend Engineer.
-            </Paragraph>
-            <Paragraph>
-              Over the years, I have been fortunate to have worked with
-              extremely talented engineers and designers, enabling me to gather
-              valuable experience that has helped me consistently sharpen my
-              skills and become a better professional.
-            </Paragraph>
+          <Paragraph>
+            Eventually, the irresistible appeal of beaches, temperate climate,
+            and traveling through Europe, brought me to Spain, where I currently
+            work as a Senior Frontend Engineer and freelance travel photgrapher.
+          </Paragraph>
+          <Paragraph>
+            Over the years, I have been fortunate to have worked with extremely
+            talented engineers and designers, enabling me to gather valuable
+            experience that has helped me consistently sharpen my skills and
+            become a better professional.
+          </Paragraph>
           {/* </ElevatorContent> */}
         </Elevator>
         <Elevator
@@ -97,33 +100,33 @@ const IndexPage = () => (
         <WorkTogether
           title={`Let's Work Together`}
           content1={
-            "Feel free to reach out if you have questions, looking for a developer or simply want to chat! Contact me at "
+            "Feel free to reach out if you have questions, looking for a photographer for your brand or simply want to chat! Contact me at "
           }
-          email={"siddharthmantri1@gmail.com"}
+          email={"hello@sidmantri.com"}
         />
         <Spacer />
         <Elevator>
           {/* <ElevatorContent> */}
-            <Paragraph>
-              When I’m not working on technology or design, you can find me
-              playing video games and guitar, or wandering off to explore
-              intriguing new places.
-            </Paragraph>
+          <Paragraph>
+            When I’m not working on technology or design, you can find me
+            playing video games and guitar, or wandering off to explore
+            intriguing new places.
+          </Paragraph>
           {/* </ElevatorContent> */}
           {/* <ElevatorContent> */}
-            <Paragraph>
-              I have been lucky to have had jobs that let me explore my love for
-              photography.{" "}
-              <StuartLink
-                target="_blank"
-                href="https://www.instagram.com/siddharthmantri"
-                rel="noreferrer"
-              >
-                Come say hi on Instagram!
-              </StuartLink>{" "}
-              or check out my{" "}
-              <GatsbyLink to="/gallery">photography portfolio here</GatsbyLink>.
-            </Paragraph>
+          <Paragraph>
+            I have been lucky to have had jobs that let me explore my love for
+            photography.{" "}
+            <StuartLink
+              target="_blank"
+              href="https://www.instagram.com/siddharthmantri"
+              rel="noreferrer"
+            >
+              Come say hi on Instagram!
+            </StuartLink>{" "}
+            or check out my{" "}
+            <GatsbyLink to="/gallery">photography portfolio here</GatsbyLink>.
+          </Paragraph>
           {/* </ElevatorContent> */}
         </Elevator>
         <Footer />
