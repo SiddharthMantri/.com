@@ -63,9 +63,9 @@ const SocialSubPage = () => {
       </IconWrapper>
       <IconWrapper>
         <IconLink
-          href="https://www.instagram.com/siddharthmantri"
+          href="https://www.instagram.com/sidmantri_"
           target="_blank"
-          title="Follow Sid on Instagram at instagram.com/siddharthmantri"
+          title="Follow Sid on Instagram at instagram.com/sidmantri_"
           rel="noreferrer"
         >
           <InstagramIcon />

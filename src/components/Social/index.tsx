@@ -58,22 +58,13 @@ const Social = props => {
       </IconWrapper>
       <IconWrapper>
         <IconLink
-          href="https://www.instagram.com/siddharthmantri"
+          href="https://www.instagram.com/sidmantri_"
           target="_blank"
-          title="Follow Sid on Instagram at instagram.com/siddharthmantri"
+          title="Follow Sid on Instagram at https://www.instagram.com/sidmantri_"
           rel="noreferrer"
         >
           <InstagramIcon />
         </IconLink>
-      </IconWrapper>
-      <IconWrapper>
-        <GatsbyLink
-          to="/gallery"
-          title="Photography Portfolio - Sid Mantri"
-          rel="noreferrer"
-        >
-          <GalleryIcon />
-        </GatsbyLink>
       </IconWrapper>
     </Wrapper>
   )

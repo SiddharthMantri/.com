@@ -115,13 +115,11 @@ const IndexPage = () => (
             photography.{" "}
             <StuartLink
               target="_blank"
-              href="https://www.instagram.com/siddharthmantri"
+              href="https://www.instagram.com/sidmantri_"
               rel="noreferrer"
             >
               Come say hi on Instagram!
             </StuartLink>{" "}
-            or check out my{" "}
-            <GatsbyLink to="/gallery">photography portfolio here</GatsbyLink>.
           </Paragraph>
           {/* </ElevatorContent> */}
         </Elevator>
