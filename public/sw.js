@@ -27,41 +27,41 @@ workbox.core.clientsClaim();
  */
 self.__precacheManifest = [
   {
-    "url": "webpack-runtime-62bab80fa1c9bba5de3b.js"
+    "url": "webpack-runtime-281ecd75098437c763a2.js"
   },
   {
-    "url": "styles.f033ceeaa27232ea8b76.css"
+    "url": "framework-d585a04b7d285a7760d6.js"
   },
   {
-    "url": "styles-80e7223394838dc7f3b7.js"
+    "url": "styles.6b485e11cc20025b7b90.css"
   },
   {
-    "url": "commons-54925bdf43cfae969c18.js"
+    "url": "styles-8fab2804fb6f85b824b6.js"
   },
   {
-    "url": "app-cb8ecb72bbbe7f29349a.js"
+    "url": "app-1e60cca92184aa5305d2.js"
   },
   {
     "url": "offline-plugin-app-shell-fallback/index.html",
-    "revision": "33bb73824052e59170253695dea67fe5"
+    "revision": "dda963600f10872756ae544297169670"
   },
   {
-    "url": "static/webfonts/s/montserrat/v15/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2"
+    "url": "static/webfonts/s/montserrat/v18/JTUSjIg1_i6t8kCHKm459Wlhyw.woff2"
   },
   {
-    "url": "static/webfonts/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_ZpC3gnD_g.woff2"
+    "url": "static/webfonts/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_ZpC3gnD_g.woff2"
   },
   {
-    "url": "static/webfonts/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2"
+    "url": "static/webfonts/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_dJE3gnD_g.woff2"
   },
   {
-    "url": "static/webfonts/s/montserrat/v15/JTURjIg1_i6t8kCHKm45_epG3gnD_g.woff2"
+    "url": "static/webfonts/s/montserrat/v18/JTURjIg1_i6t8kCHKm45_epG3gnD_g.woff2"
   },
   {
     "url": "static/webfonts/s/hind/v11/5aU69_a8oxmIdGl4BA.woff2"
   },
   {
-    "url": "static/webfonts/s/merriweather/v22/u-440qyriQwlOrhSvowK_l5-fCZM.woff2"
+    "url": "static/webfonts/s/merriweather/v25/u-440qyriQwlOrhSvowK_l5-fCZM.woff2"
   },
   {
     "url": "static/webfonts/s/hind/v11/5aU19_a8oxmIfJpbERySjQ.woff2"
@@ -73,43 +73,45 @@ self.__precacheManifest = [
     "url": "static/webfonts/s/hind/v11/5aU19_a8oxmIfNJdERySjQ.woff2"
   },
   {
-    "url": "static/webfonts/s/merriweather/v22/u-4n0qyriQwlOrhSvowK_l52xwNZWMf6.woff2"
+    "url": "static/webfonts/s/merriweather/v25/u-4n0qyriQwlOrhSvowK_l52xwNZWMf6.woff2"
   },
   {
-    "url": "static/webfonts/s/merriweather/v22/u-4n0qyriQwlOrhSvowK_l52_wFZWMf6.woff2"
+    "url": "static/webfonts/s/merriweather/v25/u-4n0qyriQwlOrhSvowK_l52_wFZWMf6.woff2"
   },
   {
-    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-bb03d6690d1d61be3b71.js"
+    "url": "component---cache-caches-gatsby-plugin-offline-app-shell-js-16703ee5599528db9f93.js"
   },
   {
-    "url": "component---src-pages-index-tsx-56bf1cfa5987c4449512.js"
+    "url": "polyfill-b71b9362b942c4bf9334.js"
+  },
+  {
+    "url": "a3336d3c033a5ec9d59a088cb032c68b95c64a61-80c7091c35bdafbe9a4e.js"
+  },
+  {
+    "url": "component---src-pages-index-tsx-e5a10d57fa68275b5c38.js"
   },
   {
     "url": "page-data/index/page-data.json",
-    "revision": "d4d23fdcf0f2516ae9301876127f80b7"
+    "revision": "072876287d33dc1fefc63e1174d931a0"
   },
   {
-    "url": "component---src-pages-gallery-tsx-ff4f2c926fa13d259326.js"
-  },
-  {
-    "url": "page-data/gallery/page-data.json",
-    "revision": "7b0aa338acca8306f3a9012fa435dbf2"
+    "url": "page-data/app-data.json",
+    "revision": "4e1175dd667869ef93943034ae096bde"
   },
   {
     "url": "manifest.webmanifest",
-    "revision": "9b076f500502ebad5072e1b83d2e4f44"
+    "revision": "e1e02600b87b27eb7620d2174825c3aa"
   }
 ].concat(self.__precacheManifest || []);
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
 workbox.routing.registerRoute(/(\.js$|\.css$|static\/)/, new workbox.strategies.CacheFirst(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\page-data\/.*\/page-data\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
-workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\/page-data\/.*\.json/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
+workbox.routing.registerRoute(/^https?:.*\.(png|jpg|jpeg|webp|avif|svg|gif|tiff|js|woff|woff2|json|css)$/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 workbox.routing.registerRoute(/^https?:\/\/fonts\.googleapis\.com\/css/, new workbox.strategies.StaleWhileRevalidate(), 'GET');
 
 /* global importScripts, workbox, idbKeyval */
-
-importScripts(`idb-keyval-iife.min.js`)
+importScripts(`idb-keyval-3.2.0-iife.min.js`)
 
 const { NavigationRoute } = workbox.routing
 
@@ -190,7 +192,7 @@ const navigationRoute = new NavigationRoute(async ({ event }) => {
   // Check for resources + the app bundle
   // The latter may not exist if the SW is updating to a new version
   const resources = await idbKeyval.get(`resources:${pathname}`)
-  if (!resources || !(await caches.match(`/app-cb8ecb72bbbe7f29349a.js`))) {
+  if (!resources || !(await caches.match(`/app-1e60cca92184aa5305d2.js`))) {
     return await fetch(event.request)
   }
 

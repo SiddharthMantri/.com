@@ -3,7 +3,6 @@ import Container from "../components/Container"
 import { Elevator } from "../components/Elevator"
 import Fade from "../components/Fade"
 import Footer from "../components/Footer"
-import GatsbyLink from "../components/GatsbyLink"
 import Heading from "../components/Heading"
 import HelmetHead from "../components/HelmetHead"
 import Landing from "../components/Landing"
@@ -119,7 +118,7 @@ const IndexPage = () => (
               rel="noreferrer"
             >
               Come say hi on Instagram!
-            </StuartLink>{" "}
+            </StuartLink>
           </Paragraph>
           {/* </ElevatorContent> */}
         </Elevator>
